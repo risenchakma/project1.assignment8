@@ -1,0 +1,180 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0f2656;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 20px 0;
+	border-bottom: 2px solid #f0f2f4;
+}
+.container {
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+
+.logo {
+	width: 10%;
+	float: left;
+}
+
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+
+.menu {
+	width: 50%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 25px;
+	color: #0f2656;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: #008aff;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 60px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 60%;
+	/*border: 1px solid red;*/
+}
+.b_content{
+	text-align: center;
+}
+.b_content h1{
+	margin: 0;
+	font-size: 60px;
+	line-height: 75px;
+}
+.b_content h1 span{
+	color: #008aff;
+}
+.b_content p{
+	padding: 0 15px;
+	line-height: 30px;
+	margin: 10px 0 25px;
+}
+.b_img{
+	margin: 0 auto;
+	width: 75%;
+	/*border: 1px soldi red;*/
+}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*feature start*/
+.feature{
+	padding: 60px 0;
+}
+.f_content{
+	overflow: hidden;
+}
+.f_left{
+	width: 45%;
+	/*border: 1px solid black;*/
+	float: left;
+	text-align: right;
+	padding-left: 25px;
+}
+.f_left h2{
+	font-size: 45px;
+	margin: 0;
+	color: #f15767;
+}
+.f_left p{
+	margin: 10 0 0;
+	line-height: 25px;
+}
+.f_right{
+	width: 45%;
+	/*border: 1px solid black;*/
+	float: right;
+	padding-right: 25px;
+}
+.f_right h1{
+	margin: 0;
+	font-size: 45px;
+}
+/*feature end*/
+/*service start*/
+.service{
+	padding-bottom: 60px;
+}
+.s_content{
+	overflow: hidden;
+}
+.single_service{
+	margin-right: 2%;
+	float: left;
+	width: 28%;
+	padding: 50px 2%;
+}
+.single_service:last-child{
+	margin-right: 0px;
+}
+.pink{
+	background-color: #fdebed;
+}
+.green{
+	background-color: #ebf9f4;
+}
+.yellow{
+	background-color: #fff7e8;
+}
+.s_img{}
+.s_img img{
+	width: 100%;
+}
+.s_h2{
+	margin: 20px 0;
+	font-size: 25px;
+}
+.s_p{
+	margin: 0;
+	line-height: 25px;
+}
+/*service end*/
+/*footer start*/
+footer{
+	padding: 45px 0;
+	background-color: #008aff;
+}
+.footer_content{}
+.footer_content p{
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+.footer_content p a{
+	color: white;
+	text-decoration: none;
+}
+/*footer end*/
